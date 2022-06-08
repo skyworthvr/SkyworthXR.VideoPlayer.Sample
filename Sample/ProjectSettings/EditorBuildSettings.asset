@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/Samples/Skyworth Video Plugin/2.0.0/Video Sample/SkyworthVRVideoDemo.unity
+    path: Assets/Samples/Skyworth Video Plugin/2.0.1/Video Sample/SkyworthVRVideoDemo.unity
     guid: 1e5e92097d3f2814caa12cbde76d5871
   m_configObjects:
     Unity.XR.Skyworth.SkyworthSettings: {fileID: 11400000, guid: 6c7dc88838b578541a91a333f8d54871,
