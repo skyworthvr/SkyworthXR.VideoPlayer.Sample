@@ -86,12 +86,10 @@
       "url": "https://packages.unity.cn"
     },
     "com.unity.skyworth.video": {
-      "version": "file:../com.unity.skyworth.video-2.0.1.tgz",
+      "version": "file:D:/WorkSpace/gitlab_workspace/VideoUnityPluginSource/package",
       "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.unity.xr.skyworth": "1.0.3"
-      }
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.subsystemregistration": {
       "version": "1.1.0",
@@ -223,16 +221,6 @@
         "com.unity.xr.core-utils": "2.1.1"
       },
       "url": "https://packages.unity.cn"
-    },
-    "com.unity.xr.skyworth": {
-      "version": "file:../com.unity.xr.skyworth-2.0.0.tgz",
-      "depth": 0,
-      "source": "local-tarball",
-      "dependencies": {
-        "com.unity.xr.management": "3.2.16",
-        "com.unity.ugui": "1.0.0",
-        "com.unity.xr.interaction.toolkit": "2.0.0"
-      }
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
