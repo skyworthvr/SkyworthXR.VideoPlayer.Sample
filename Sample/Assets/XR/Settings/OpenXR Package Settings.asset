@@ -53,6 +53,7 @@ MonoBehaviour:
   m_Name: CameraAccessFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Camera Access (Experimental)
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.cameraaccess
@@ -60,7 +61,16 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 0
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
   DirectMemoryAccessConversion: 0
+  _baseRuntimeFeature: {fileID: 0}
+  _frameReleased: 1
+  _deviceIsA3: 0
 --- !u!114 &-7020574492910400748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,6 +84,7 @@ MonoBehaviour:
   m_Name: PlaneDetectionFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Plane Detection
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.planedetection
@@ -81,8 +92,17 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 0
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
   UseSceneUnderstandingPlaneDetection: 1
   ConvexHullEnabled: 1
+  _baseRuntimeFeature: {fileID: 0}
+  _activePlaneDetectionHandle: 0
+  _subscribedSubsystems: []
 --- !u!114 &-6607081281905314673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,6 +138,7 @@ MonoBehaviour:
   m_Name: HandTrackingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Hand Tracking (Deprecated)
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.handtracking.deprecated
@@ -125,6 +146,15 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 0
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
+  _leftHandTrackerHandle: 0
+  _rightHandTrackerHandle: 0
+  _baseRuntimeFeature: {fileID: 0}
 --- !u!114 &-6173211128871768293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,35 +188,21 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 3360632257118811344}
-  - {fileID: -7178829939240893794}
-  - {fileID: 1883784691328684186}
   - {fileID: 2303647429451028029}
   - {fileID: -5450072256361146263}
-  - {fileID: -3790670318254245929}
   - {fileID: -8062995265631144177}
-  - {fileID: 903511911784456225}
   - {fileID: -4289444137546847407}
   - {fileID: -5343703346422220882}
-  - {fileID: -6381727087846967656}
-  - {fileID: 3171181306317503181}
-  - {fileID: 5212801182648091488}
   - {fileID: 3949660486962838471}
   - {fileID: 8706584456763469351}
   - {fileID: -6173211128871768293}
   - {fileID: 5570461650613843044}
   - {fileID: -3197355721606414372}
-  - {fileID: 8789683950533844001}
   - {fileID: 5062738096610759473}
   - {fileID: 8957371226076337830}
   - {fileID: 1842571327292108830}
   - {fileID: 113671648100809884}
-  - {fileID: 4520021322219095360}
-  - {fileID: -7020574492910400748}
-  - {fileID: 2810817047576953094}
   - {fileID: 6749452035406352835}
-  - {fileID: 2840085922045628242}
-  - {fileID: 6799702162154967842}
   - {fileID: 5537171187621973438}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
@@ -302,6 +318,7 @@ MonoBehaviour:
   m_Name: FusionFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Dual Render Fusion (Experimental)
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.fusion
@@ -309,6 +326,12 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 1
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
   ValidateOpenScene: 1
   SimulateFusionDevice: 1
 --- !u!114 &-3718804490064249775
@@ -480,6 +503,7 @@ MonoBehaviour:
   m_Name: FoveatedRenderingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Foveated Rendering
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.foveatedrendering
@@ -488,7 +512,15 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 0
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
+  FoveationEnabled: 0
   DefaultFoveationLevel: 0
+  _currentFoveationLevel: 0
 --- !u!114 &1074675475214157723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -575,6 +607,7 @@ MonoBehaviour:
   m_Name: CompositionLayersFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Composition Layers (Experimental)
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.compositionlayers
@@ -583,6 +616,12 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 0
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
 --- !u!114 &2021981496710642915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -656,6 +695,7 @@ MonoBehaviour:
   m_Name: QrCodeTrackingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: QR Code Tracking (Experimental)
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.qrcodetracking
@@ -663,6 +703,14 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 0
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
+  _baseRuntimeFeature: {fileID: 0}
+  _availableTrackingModes: 
 --- !u!114 &2840085922045628242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -676,6 +724,7 @@ MonoBehaviour:
   m_Name: SpatialAnchorsFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Spatial Anchors
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.spatialanchors
@@ -684,6 +733,13 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 0
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
+  _baseRuntimeFeature: {fileID: 0}
 --- !u!114 &3171181306317503181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -697,6 +753,7 @@ MonoBehaviour:
   m_Name: HitTestingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Hit Testing
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.raycasting
@@ -704,6 +761,13 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 0
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
+  _planeDetectionFeature: {fileID: 0}
 --- !u!114 &3268205923038304604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -717,6 +781,7 @@ MonoBehaviour:
   m_Name: ImageTrackingFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Image Tracking
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.imagetracking
@@ -724,8 +789,15 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 0
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
   ExtendedRangeMode: 0
   LowPowerMode: 0
+  _baseRuntimeFeature: {fileID: 0}
 --- !u!114 &3360632257118811344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -739,6 +811,7 @@ MonoBehaviour:
   m_Name: BaseRuntimeFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 1
+  <failedInitialization>k__BackingField: 0
   nameUi: Base Runtime
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.base
@@ -747,6 +820,12 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 1
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
   CheckInstalledRuntime: 1
   LaunchAppOnViewer: 1
   PreventSleepMode: 1
@@ -757,6 +836,8 @@ MonoBehaviour:
   ExportHeadless: 0
   AlternateStartActivity: 
   SkipPermissionChecks: 0
+  _fusionSupportEnabled: 0
+  <SupportedDisplayRefreshRates>k__BackingField: []
 --- !u!114 &3949660486962838471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -790,6 +871,7 @@ MonoBehaviour:
   m_Name: BaseRuntimeFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Base Runtime
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.base
@@ -798,6 +880,12 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 1
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
   CheckInstalledRuntime: 1
   LaunchAppOnViewer: 1
   PreventSleepMode: 1
@@ -808,6 +896,8 @@ MonoBehaviour:
   ExportHeadless: 0
   AlternateStartActivity: 
   SkipPermissionChecks: 0
+  _fusionSupportEnabled: 0
+  <SupportedDisplayRefreshRates>k__BackingField: []
 --- !u!114 &4520021322219095360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -821,6 +911,7 @@ MonoBehaviour:
   m_Name: PassthroughLayerFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Passthrough Layer (Experimental)
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.passthroughlayer
@@ -828,6 +919,12 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 0
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
 --- !u!114 &5062738096610759473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -882,6 +979,7 @@ MonoBehaviour:
   m_Name: ImageTrackingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Image Tracking
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.imagetracking
@@ -889,8 +987,15 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 0
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
   ExtendedRangeMode: 0
   LowPowerMode: 0
+  _baseRuntimeFeature: {fileID: 0}
 --- !u!114 &5299970824067174926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -984,7 +1089,6 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 4491497327568624569}
   - {fileID: -3654600957771828497}
   - {fileID: 1466076527525735845}
   - {fileID: 5211541204641396731}
@@ -992,7 +1096,6 @@ MonoBehaviour:
   - {fileID: -3718804490064249775}
   - {fileID: 9169447392474601673}
   - {fileID: 5299970824067174926}
-  - {fileID: 3268205923038304604}
   - {fileID: 1074675475214157723}
   - {fileID: -3416277862522613871}
   - {fileID: 2021981496710642915}
@@ -1047,6 +1150,7 @@ MonoBehaviour:
   m_Name: SpatialMeshingFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Spatial Meshing (Experimental)
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.sceneunderstanding
@@ -1054,6 +1158,12 @@ MonoBehaviour:
   company: Qualcomm
   priority: 0
   required: 0
+  <SessionHandle>k__BackingField: 0
+  <SystemIDHandle>k__BackingField: 0
+  <InstanceHandle>k__BackingField: 0
+  <SpaceHandle>k__BackingField: 0
+  <IsSessionRunning>k__BackingField: 0
+  <SessionState>k__BackingField: 0
 --- !u!114 &8157128330640434159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1153,6 +1263,7 @@ MonoBehaviour:
   m_Name: SpacesMicrosoftMixedRealityMotionControllerProfile Android
   m_EditorClassIdentifier: 
   m_enabled: 1
+  <failedInitialization>k__BackingField: 0
   nameUi: Microsoft Mixed Reality Motion Controller Profile
   version: 0.23.0
   featureIdInternal: com.unity.openxr.feature.input.microsoftmotioncontroller
