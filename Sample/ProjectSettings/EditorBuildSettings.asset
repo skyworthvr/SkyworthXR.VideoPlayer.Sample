@@ -14,6 +14,8 @@ EditorBuildSettings:
   m_configObjects:
     Unity.XR.Skyworth.SkyworthSettings: {fileID: 11400000, guid: 6c7dc88838b578541a91a333f8d54871,
       type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 2675fb7eb711d7d468a1adb2ef99891a,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 610e91d4c6bf17a479a4c90dc1fa151a,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 14065ad99d23df448948879c2311402c,
