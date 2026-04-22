@@ -72,7 +72,7 @@ public class SvrVideoPlayerDemo : MonoBehaviour
 
     private void OnEnd()
     {
-        SvrVideoPlayer.Release();
+        // SvrVideoPlayer.Release();
         // Play next video.
         PlayVideoByIndex(1);
     }
