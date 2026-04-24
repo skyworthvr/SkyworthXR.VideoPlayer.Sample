@@ -168,6 +168,7 @@ MonoBehaviour:
   - {fileID: 903511911784456225}
   - {fileID: -4289444137546847407}
   - {fileID: -5343703346422220882}
+  - {fileID: -2151399204964193820}
   - {fileID: -6381727087846967656}
   - {fileID: 3171181306317503181}
   - {fileID: 5212801182648091488}
@@ -411,6 +412,27 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-2151399204964193820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa78685d2359408d9e46e52dd1291ba, type: 3}
+  m_Name: HandTrackingFeature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Hand Tracking
+  version: 0.16.0
+  featureIdInternal: com.qualcomm.snapdragon.spaces.handtracking
+  openxrExtensionStrings: 
+  company: Qualcomm
+  priority: 0
+  required: 0
+  AutoStart: 1
 --- !u!114 &-1532405267588245505
 MonoBehaviour:
   m_ObjectHideFlags: 0

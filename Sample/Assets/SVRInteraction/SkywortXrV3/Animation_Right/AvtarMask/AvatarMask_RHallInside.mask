@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AvatarMask_RHallInside
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: IMU.Right
+    m_Weight: 0
+  - m_Path: right_buttons
+    m_Weight: 0
+  - m_Path: right_buttons/a_button
+    m_Weight: 0
+  - m_Path: right_buttons/b_button
+    m_Weight: 0
+  - m_Path: right_buttons/photo_button
+    m_Weight: 0
+  - m_Path: right_buttons/right_o_button
+    m_Weight: 0
+  - m_Path: right_buttons/right_rock
+    m_Weight: 0
+  - m_Path: right_buttons/right_side_button
+    m_Weight: 1
+  - m_Path: right_buttons/right_triger
+    m_Weight: 0

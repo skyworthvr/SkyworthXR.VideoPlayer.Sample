@@ -1,0 +1,364 @@
+{
+    "name": "Sky UI Input Actions",
+    "maps": [
+        {
+            "name": "NewSkyUI",
+            "id": "0fab558c-57a1-496f-9c2f-9bfa5be31a50",
+            "actions": [
+                {
+                    "name": "Handle R2DAxis",
+                    "type": "Value",
+                    "id": "fd87461b-8c5c-4fb4-9620-a5c6fd2bb268",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Handle L2DAxis",
+                    "type": "Value",
+                    "id": "5d782b65-f7d4-4d67-894e-238aa134b810",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "QCHT Left TrackState",
+                    "type": "Value",
+                    "id": "cf561c9e-6c0d-4a89-b460-8a14f85f2d7e",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "QCHT Left Pointer Positon",
+                    "type": "Value",
+                    "id": "2d0e82d3-c9c9-4ec3-b6e5-e445d93ea0e3",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "QCHT Left Pointer Rotation",
+                    "type": "Value",
+                    "id": "b098d014-667e-4cd1-a5a5-33447c828f5a",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "QCHT Left Pointer Select",
+                    "type": "Button",
+                    "id": "5a41f45d-1cbc-4cdd-ae63-b29f6f41b1d2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "QCHT Left Pointer Select Value",
+                    "type": "Value",
+                    "id": "e89a0c14-b6ff-4d62-8e93-161054850b13",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "QCHT Right TrackState",
+                    "type": "Value",
+                    "id": "a6ab44b9-350c-4630-ac8b-dd86fd215a79",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "QCHT Right Pointer Positon",
+                    "type": "Value",
+                    "id": "d0b38c54-77a9-460a-8342-d01fe20a29f5",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "QCHT Right Pointer Rotation",
+                    "type": "Value",
+                    "id": "7e8f6756-b4ae-45fd-93ec-0e95f2503ccb",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "QCHT Right Pointer Select",
+                    "type": "Button",
+                    "id": "b804b34a-ed99-4c54-a4be-75a50c0885c2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "QCHT Right Pointer Select Value",
+                    "type": "Value",
+                    "id": "86588d3b-167d-4937-9f53-b7296e57e073",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a06269da-874c-41fa-9d3e-f05d24666260",
+                    "path": "<XRController>{LeftHand}/primary2DAxis",
+                    "interactions": "Sector(directions=3,sweepBehavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Handle L2DAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4f7bdf30-adf4-46c9-b742-19eab4fb6ac7",
+                    "path": "<XRController>{RightHand}/primary2DAxis",
+                    "interactions": "Sector(directions=3,sweepBehavior=2)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Handle R2DAxis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d324950-a6d7-40af-9130-b47750a88056",
+                    "path": "<HandTrackingDevice>{LeftHand}/pointerPosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Left Pointer Positon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "acc9d2e7-8478-405c-9c8c-924ce13ead13",
+                    "path": "<HandTrackingDevice>{LeftHand}/pointerRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Left Pointer Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c044766-7109-47de-95e7-8fdab13579d3",
+                    "path": "<HandTrackingDevice>{RightHand}/pointerRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Right Pointer Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3174a419-05ea-4ed9-b55b-d1d87765f333",
+                    "path": "<HandTrackingDevice>{RightHand}/pointerPosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Right Pointer Positon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b6e9cf7-1140-4bd3-bb3f-7472a67a0a67",
+                    "path": "<HandTrackingDevice>{LeftHand}/trackingState",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Left TrackState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c5862602-dc8d-433c-85fc-75d381c75d34",
+                    "path": "<HandTrackingDevice>{RightHand}/trackingState",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Right TrackState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6f9f2604-f910-48b9-85c9-b55573db9353",
+                    "path": "<HandInteraction>{LeftHand}/pinchValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Left Pointer Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1e16a91c-3698-4f47-b896-a8568f9159ab",
+                    "path": "<HandTrackingDevice>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Left Pointer Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aaafa0d7-a242-4b0c-a30a-c902f1a93faf",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Left Pointer Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f97625c2-f9ab-47f3-93fd-e02a9354bcbb",
+                    "path": "<XRController>{LeftHand}/selectPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Left Pointer Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ca93107-021a-4c07-adb5-69f441f5098b",
+                    "path": "<XRController>{LeftHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Left Pointer Select Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "592310fe-4a9c-4181-89cd-8a2822dde6d4",
+                    "path": "<XRController>{LeftHand}/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Left Pointer Select Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c4cfbe50-8844-4d9e-9d60-f4e4bc7becd8",
+                    "path": "<HandInteraction>{LeftHand}/pinchValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Left Pointer Select Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b2a9c1c4-ec7a-44db-9baf-0d16b7289775",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Right Pointer Select Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3adc39b9-7222-43ef-a312-f023c8d487fd",
+                    "path": "<XRController>{RightHand}/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Right Pointer Select Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2560d44e-81a9-4a18-a14b-6015f5d86e13",
+                    "path": "<HandInteraction>{RightHand}/pinchValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Right Pointer Select Value",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d4f064f9-2482-4fd5-8689-c72b5466b578",
+                    "path": "<HandTrackingDevice>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Right Pointer Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7dce45ef-8a73-41de-8a20-8f35c7ce976a",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Right Pointer Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "45e1fbf9-bb62-4e49-9a45-0c843b82f051",
+                    "path": "<XRController>{RightHand}/selectPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Right Pointer Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "04445a69-034f-41b0-844b-d9fe88914f74",
+                    "path": "<HandInteraction>{RightHand}/pinchValue",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "QCHT Right Pointer Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
