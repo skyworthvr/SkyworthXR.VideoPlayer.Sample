@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.coplaydev.unity-mcp": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",
     "com.qualcomm.qcht.unity.interactions": "file:com.qualcomm.qcht.unity.interactions-4.1.7.tgz",
     "com.qualcomm.snapdragon.spaces": "file:com.qualcomm.snapdragon.spaces-0.23.0.tgz",
     "com.unity.ai.navigation": "1.1.6",
