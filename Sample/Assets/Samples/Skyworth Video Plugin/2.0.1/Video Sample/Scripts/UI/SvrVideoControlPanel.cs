@@ -64,7 +64,6 @@ public class SvrVideoControlPanel : MonoBehaviour
     public void ClickPreviousBtn()
     {
         SvrVideoPlayerDemo.SvrVideoPlayer.Stop();
-        SvrVideoPlayerDemo.SvrVideoPlayer.Release();
         SvrVideoPlayerDemo.PlayVideoByIndex(-1);
     }
 
@@ -72,7 +71,7 @@ public class SvrVideoControlPanel : MonoBehaviour
     {
         //SvrVideoPlayerDemo.SvrVideoPlayer.Stop();
         //SvrVideoPlayerDemo.SvrVideoPlayer.Release();
-        //SvrVideoPlayerDemo.PlayVideoByIndex(1);
+        SvrVideoPlayerDemo.PlayVideoByIndex(1);
 
         SvrVideoPlayerDemo.SwitchResolution();
     }
